@@ -1,0 +1,18 @@
+linters-settings:
+  lll:
+    line-length: 180
+linters:
+  enable-all: true
+  disable:
+    - scopelint
+    - interfacer
+    - maligned
+    - golint
+    - goerr113
+    - forcetypeassert
+    - exhaustivestruct
+    - dupl
+    - varnamelen
+    - gosec
+    - gomnd
+    - gofumpt # temporary
