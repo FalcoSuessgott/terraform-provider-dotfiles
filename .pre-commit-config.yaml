@@ -1,0 +1,15 @@
+repos:
+  # golang pre commits
+  - repo: git://github.com/dnephin/pre-commit-golang
+    rev: master
+    hooks:
+      - id: go-fmt
+      - id: go-vet
+      - id: go-lint
+      - id: go-imports
+      - id: no-go-testing
+      - id: golangci-lint
+        args: ["--skip-dirs=vendor -c .golang-ci.yml ."]
+      - id: go-unit-tests
+      - id: go-build
+      - id: go-mod-tidy
