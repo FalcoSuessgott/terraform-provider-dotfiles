@@ -3,7 +3,7 @@ module github.com/FalcoSuessgott/terraform-provider-dotfiles
 go 1.16
 
 require (
-	github.com/hashicorp/terraform-plugin-sdk/v2 v2.17.0
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.24.1
 	github.com/otiai10/copy v1.7.0
 )
 
